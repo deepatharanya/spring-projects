@@ -23,7 +23,7 @@ Application Overview
     
             curl -X PUT "http://localhost:8080/api/book/1" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"author\": \"Kathy Sierra, Bert Bates\", \"id\": 1, \"name\": \"Head First Java\"}"
             
-  5. Delete a single book using its Id
+   5. Delete a single book using its Id
 
             curl -X DELETE "http://localhost:8080/api/book/5" -H "accept: */*"
      
